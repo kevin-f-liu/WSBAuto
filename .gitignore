@@ -2,6 +2,7 @@
 **/.idea/misc.xml
 **/.idea/workspace.xml 
 **/.idea/tasks.xml
+**/.vscode/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
