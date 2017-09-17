@@ -41,6 +41,12 @@ ticker = input("Enter a stock ticker: ")
 
 response = requests.get(fRequest.getUrl("/fairvalues/"+ticker),headers=fRequest.headers)
 
+
+
+
+
+response = requests.get(fRequest.getUrl("/fairvalues/"+ticker),headers=fRequest.headers)
+
 ticker_parsed = json.loads(response.text)
 
 fvHigh = ticker_parsed.get('data',{}).get('price',{}).get('high')
